@@ -1,0 +1,107 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0;
+    background-color: #9CBDAB
+}
+
+/* Header Information Here */
+header{
+    background-color: #70917F;
+    padding: 1rem 2vw;
+}
+header h1{
+   margin: 0;
+   color: #2f3133; 
+}
+header p{
+   margin: 0;
+   color: #2f3133; 
+   letter-spacing: 0.5px;
+}
+
+/* nav stuff goes here */
+nav{
+    background-color: #31403B;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+    
+}
+nav a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #70917F;
+    font-weight: 200;
+    display: block;
+    padding: 0.3rem 0.8rem;
+}
+
+/* stuff for the main */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #2f3133;
+}
+
+main h2 {
+    color: #2f3133;
+    margin-bottom: .2rem;
+    background-color: #51695B
+}
+
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+}
+
+main ol a {
+    text-decoration: none;
+}
+main ol li {
+    font-size: 1rem
+}
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main address {
+    font-style: italic;
+    font-size: 1rem;
+    color: #2f3133;
+    padding: .5rem 3vw;
+    background-color: #70917F;
+    width: 12.5rem;
+    border: 3px solid #31403B;
+    border-radius: .5rem;
+}
+
+
+main a:hover {
+    color: rgb(239,0,24);
+}
+
+
+/* Footer Stuff Here */
+footer {
+    background-color: #31403B;
+    text-align: center;
+    color: #FFF;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #FFF;
+}

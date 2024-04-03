@@ -76,6 +76,14 @@ main ul li {
     margin-bottom: .5rem;
     font-size: .9rem;
 }
+main dl dt {
+    color: #b40412;
+    font-weight: 700;
+}
+main dl dd {
+    color: #024873;
+    font-size: .9rem;
+}
 
 main address {
     font-style: italic;

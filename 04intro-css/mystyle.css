@@ -1,7 +1,7 @@
 body {
     font-family: 'Kanit', sans-serif;
-    font-size: 20px;
-    font-weight: 100;
+    font-size: 16px;
+    font-weight: 300;
     margin: 0;
     background-color: #9CBDAB
 }
@@ -42,6 +42,12 @@ nav a{
     padding: 0.3rem 0.8rem;
 }
 
+
+
+
+
+
+
 /* stuff for the main */
 main {
     padding: 1rem 2vw;
@@ -77,11 +83,11 @@ main ul li {
     font-size: .9rem;
 }
 main dl dt {
-    color: #b40412;
+    color: #31403B;
     font-weight: 700;
 }
 main dl dd {
-    color: #024873;
+    color: #2f3133;
     font-size: .9rem;
 }
 
@@ -100,6 +106,9 @@ main address {
 main a:hover {
     color: rgb(239,0,24);
 }
+
+
+
 
 
 /* Footer Stuff Here */

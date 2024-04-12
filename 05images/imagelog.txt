@@ -1,0 +1,49 @@
+<figure>
+    <img src="images/concert.jpg" alt="Concert Genre" width="300" height="150" loading="lazy">
+    <figcaption>Attending live concerts is considered one of the best ways to benefit your brain and your emotions.</figcaption>
+</figure>
+
+<figure>
+    <img src="images/alternative.jpg" alt="Alternative Genre" width="300" height ="169" loading="lazy">
+    <figcaption>Alternative</figcaption>
+</figure>
+
+<figure>
+    <img src="images/electronica.jpg" alt="Electronica Genre" width="300" height ="209" loading="lazy">
+    <figcaption>Electronica</figcaption>
+</figure>
+
+<figure>
+    <img src="images/folk.jpg" alt="Folk Genre" width="300" height ="175" loading="lazy">
+    <figcaption>Folk</figcaption>
+</figure>
+
+<figure>
+    <img src="images/hiphop.jpg" alt="Hip Hop Genre" width="300" height ="200" loading="lazy">
+    <figcaption>Hip Hop</figcaption>
+</figure>
+
+<figure>
+    <img src="images/metal.jpg" alt="Metal Genre" width="300" height ="200" loading="lazy">
+    <figcaption>Metal</figcaption>
+</figure>
+
+<figure>
+    <img src="images/othermedia.jpg" alt="Other Media Genre" width="300" height ="150" loading="lazy">
+    <figcaption>Other Media</figcaption>
+</figure>
+
+<figure>
+    <img src="images/pop.jpg" alt="Pop Genre" width="300" height ="200" loading="lazy">
+    <figcaption>Pop</figcaption>
+</figure>
+
+<figure>
+    <img src="images/rap.jpg" alt="Rap Genre" width="300" height ="200" loading="lazy">
+    <figcaption>Rap</figcaption>
+</figure>
+
+<figure>
+    <img src="images/rock.jpg" alt="Rock Genre" width="300" height ="200" loading="lazy">
+    <figcaption>Rock</figcaption>
+</figure>

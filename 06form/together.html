@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang= "en">
+    <head>
+        <meta charset="utf-8">
+        <title>Listen Up!: Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="The Best Mini Blog For Music">
+        <meta name="author" content="Marissa Jimenez">
+        <link rel="stylesheet" href="mystyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <h1>Listen Up!</h1>
+            <p>The Best Miniblog For Music</p>
+        </header>
+        <!-- Start of the page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="rankings.html">Rankings</a></li>
+                <li class="active"><a href="together.html">Let's Listen Together</a></li>
+                <li><a href="popular.html">What's Popular Now</a></li>
+                <li><a href="news.html">Music News</a></li>
+            </ul>
+        </nav>
+        <!-- Start of the page content -->
+        <main> 
+        
+        <h1>Let's Listen Together!</h1>
+        <form method="get" class="myForm" action="thanks.html">
+        
+        <fieldset>
+        <legend>Your Information</legend>
+        <label>Name:<input type="text" name="fname" required></label>
+             <label> Newsletter Preferrence
+            <select name="time">
+            <option value="none">Please Select </option>
+            <option value="email">Email</option>
+            <option value="text">SMS</option>
+            <option value="both">Email + SMS</option>   
+            </select>
+            </label>
+        <label>Cell Number:<input type="tel" name="phone"></label>
+        <label>Email: <input type="email" name="email"></label>
+        </fieldset> 
+            
+         <fieldset>
+        <legend>Favorite Way To Listen</legend>    
+            <label><input type="radio" name="method" value="drone"> Vinyl</label>
+            <label><input type="radio" name="method" value="cycle"> Streaming (Apple Music, Spotify, etc)</label>
+            <label><input type="radio" name="method" value="drone"> CD</label>
+        </fieldset>
+            
+        <fieldset>
+        <legend>Preferred Genres</legend>    
+            <label><input type="checkbox" name="Alternative" value="chosen"> Alternative</label>
+            <label><input type="checkbox" name="Country" value="chosen"> Country</label>
+            <label><input type="checkbox" name="Electronica" value="chosen"> Electronica</label>
+            <label><input type="checkbox" name="Folk" value="chosen"> Folk</label>
+            <label><input type="checkbox" name="Hip Hop" value="chosen"> Hip Hop</label>
+            <label><input type="checkbox" name="Metal" value="chosen"> Metal</label>
+            <label><input type="checkbox" name="Other Media" value="chosen"> Other Media</label>
+            <label><input type="checkbox" name="Pop" value="chosen"> Pop</label>
+            <label><input type="checkbox" name="Rap" value="chosen"> Rap</label>
+            <label><input type="checkbox" name="Rock" value="chosen"> Rock</label>
+            
+        </fieldset>    
+        
+        <label>What's your favorite aspect about music?
+            <textarea name="Enter here..."></textarea>
+        </label>
+            
+        <input type="submit" value="Take a listen!">
+        </form>
+                <address>
+                Listen Up!<br>
+                800 W University Pkwy<br>
+                Orem, UT 84058<br>
+                </address>
+        </main>
+        <!-- Start of the page footer -->
+        <footer>
+        <p>&copy; 2024 &bull; Marissa Jimenez &bull; <a href="tel:1-872-998-0037">1-872-998-0037</a></p>
+            
+        </footer>
+    
+    </body>
+</html>

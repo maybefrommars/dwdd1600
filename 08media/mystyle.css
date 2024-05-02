@@ -119,21 +119,23 @@ figure.wrapped figcaption {
     font-size: .75rem;
 }
 
-div.gallery {
+.musicgallery {
     display: flex;
     flex-wrap: wrap;
     
 }
 
-div.gallery figure {
+.musicgallery figure {
     margin: .5rem 2% 0 0;
 }
 
-div.gallery figcaption {
+.musicgallery figcaption {
     text-align: center;
     font-size: 1.5rem;
     color: #2f3133;
 }
+
+
 
 
 

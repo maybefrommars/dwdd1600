@@ -1,0 +1,260 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    background-color: #9CBDAB
+}
+
+/* Header Information Here */
+header{
+    background-color: #70917F;
+    padding: 1rem 2vw;
+}
+header h1{
+   margin: 0;
+   color: #2f3133; 
+}
+header p{
+   margin: 0;
+   color: #2f3133; 
+   letter-spacing: 0.5px;
+}
+
+/* nav stuff goes here */
+nav{
+    background-color: #31403B;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+    
+}
+nav a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #70917F;
+    font-weight: 200;
+    display: block;
+    padding: 0.3rem 0.3rem;
+}
+
+nav li.active a {
+   background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    }
+nav a {
+        display:flex;
+        padding: .3rem;
+        text-decoration: none;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align:center;
+        border-bottom: solid 1px #aaa;
+        color: #ABDEC2;
+    }
+nav .active a {
+        background-color: #70917F;
+        background-image:linear-gradient(to bottom,#9CBDAB, #70917F);
+        color: white;
+    }
+
+/* stuff for the main */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #2f3133;
+}
+
+main h2 {
+    color: #2f3133;
+    margin-bottom: .2rem;
+    background-color: #51695B;
+}
+
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+}
+
+main ol a {
+    text-decoration: none;
+}
+main ol li {
+    font-size: 1rem
+}
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main dl dt {
+    color: #31403B;
+    font-weight: 700;
+}
+main dl dd {
+    color: #2f3133;
+    font-size: .9rem;
+}
+    
+
+.concertimagehero {
+    width: 100%;
+    margin: 0;
+}
+.concertimagehero img {
+    width: 100%;
+    height: auto;
+}
+    
+
+main address {
+    font-style: italic;
+    font-size: 1rem;
+    color: #2f3133;
+    padding: .5rem 3vw;
+    background-color: #70917F;
+    width: 12.5rem;
+    border: 3px solid #31403B;
+    border-radius: .5rem;
+}
+
+main a:hover {
+    color: #ffff;
+}
+
+
+.myForm fieldset {
+    border: dotted 3px #2f3133;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+.myForm legend {
+    color: #2f3133;
+    font-size: .8rem;
+}
+.myForm label {
+    margin: .5rem;
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea{
+    display: block;
+}
+
+
+.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea {
+    border: solid 3px #70917F;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+}
+.myForm textarea {
+    height: 6rem;
+}
+
+.myForm: required {
+    background-color: #70917F;
+}
+
+.myForm [type=submit]v{
+    background-color: #70917F;
+    border: none;
+    padding: : 1rem 2rem;
+    border-radius: : 10px;
+    color: white;
+    margin: : 1rem 0 0 1vw;
+}
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #2f3133;
+}
+
+.musicgallery {
+    display: flex;
+    flex-wrap: wrap;
+} 
+.musicgallery section {
+    flex-basis: 50%;
+    margin: 1rem 0;
+    
+}
+.musicgallery span {
+    display: block;
+    text-align: center; 
+    font-weight: 700;
+    color: #895772;
+}
+.musicgallery img {
+    width: 98%;
+    height: auto;
+}
+
+
+table.services {
+    width:100%;
+    border-collapse:collapse;
+    }
+
+table.services th{
+    background-color: #31403B;
+    color: white;
+    padding: .5rem 2vw;
+    text-align:left;
+        }
+    table.services td {
+        color: #70917F;
+        padding:.4rem 2vw;
+    }
+
+    table.services tr:nth-child(3) {
+        background-color: #51695B;
+    }
+
+
+footer a {
+    color: #FFF;
+}

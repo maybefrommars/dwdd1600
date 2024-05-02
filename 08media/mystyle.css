@@ -39,36 +39,12 @@ nav a{
     color: #70917F;
     font-weight: 200;
     display: block;
-    padding: 0.3rem 0.3rem;
+    padding: 0.3rem 0.8rem;
 }
 
 nav li.active a {
    background-color: white;
 }
-
-@media only screen and (max-width: 600px) {
-    nav ul {
-    list-style-type: none;
-    padding: 0 2vw;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    }
-nav a {
-        display:flex;
-        padding: .3rem;
-        text-decoration: none;
-        font-weight: 400;
-        text-transform: uppercase;
-        text-align:center;
-        border-bottom: solid 1px #aaa;
-        color: #ABDEC2;
-    }
-nav .active a {
-        background-color: #70917F;
-        background-image:linear-gradient(to bottom,#9CBDAB, #70917F);
-        color: white;
-    }
 
 /* stuff for the main */
 main {
@@ -82,7 +58,7 @@ main h1 {
 main h2 {
     color: #2f3133;
     margin-bottom: .2rem;
-    background-color: #51695B;
+    background-color: #51695B
 }
 
 main p {
@@ -112,17 +88,6 @@ main dl dd {
     color: #2f3133;
     font-size: .9rem;
 }
-    
-
-.concertimagehero {
-    width: 100%;
-    margin: 0;
-}
-.concertimagehero img {
-    width: 100%;
-    height: auto;
-}
-    
 
 main address {
     font-style: italic;
@@ -139,49 +104,6 @@ main a:hover {
     color: #ffff;
 }
 
-
-.myForm fieldset {
-    border: dotted 3px #2f3133;
-    border-radius: 3px;
-    margin-bottom: 1rem;
-}
-.myForm legend {
-    color: #2f3133;
-    font-size: .8rem;
-}
-.myForm label {
-    margin: .5rem;
-}
-
-.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea{
-    display: block;
-}
-
-
-.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea {
-    border: solid 3px #70917F;
-    padding: .3rem;
-    width: 250px;
-    border-radius: .3rem;
-    font-family: 'Kanit', sans-serif;
-    font-weight: 200;
-}
-.myForm textarea {
-    height: 6rem;
-}
-
-.myForm: required {
-    background-color: #70917F;
-}
-
-.myForm [type=submit]v{
-    background-color: #70917F;
-    border: none;
-    padding: : 1rem 2rem;
-    border-radius: : 10px;
-    color: white;
-    margin: : 1rem 0 0 1vw;
-}
 figure.wrapped {
     width: 30%;
     margin: 0 0 0 2%;
@@ -213,25 +135,6 @@ div.gallery figcaption {
     color: #2f3133;
 }
 
-.musicgallery {
-    display: flex;
-    flex-wrap: wrap;
-} 
-.musicgallery section {
-    flex-basis: 50%;
-    margin: 1rem 0;
-    
-}
-.musicgallery span {
-    display: block;
-    text-align: center; 
-    font-weight: 700;
-    color: #895772;
-}
-.musicgallery img {
-    width: 98%;
-    height: auto;
-}
 
 
 table.services {
